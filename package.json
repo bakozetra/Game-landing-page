@@ -2,10 +2,9 @@
   "name": "game-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "scss": "node-sass scss -o css",
-    "scss:watch": "npm run scss && node-sass scss -w -o css"
+  "main": "index.js","scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
   },
   "repository": {
     "type": "git",
