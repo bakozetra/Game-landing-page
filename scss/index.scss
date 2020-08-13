@@ -1,1 +1,12 @@
+@import "fonts";
+@import "default";
+//Contains of the scss variable
+@import "variables";
+// Head of the survuve
 @import "masthead";
+/* this is the main of the html*/
+@import "main";
+@import "article-survive";
+@import "article-feature";
+// footer 
+@import "footer";
