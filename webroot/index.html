@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./webroot/css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header class="header-logo">
@@ -16,7 +16,15 @@
                     </a>
                 </li>
                <li>
-                <a href="./">ENG </a>
+                <form action="." method="GET">
+                    <label for="lang_dropdown">ENG</label>
+                    <select name="lang" id="lang_dropdown">
+                      <option lang="en" value="en" label="English">
+                      <option lang="ru" value="ru" label="русский">
+                      <option lang="fr" value="fr" label="Français">
+                      <option lang="de" value="de" label="Deutsch">
+                    </select>
+                  </form>
                </li>
                <li>
                 <a href="./">

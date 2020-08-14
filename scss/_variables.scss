@@ -1,8 +1,6 @@
-// From _variables.scss:
-@function image($filename) {
-    @return url("../img/#{$filename}");
-  }
-//   // In your component.scss file:
-//   selector {
-//     background-image: image('test.svg');
-//   }
+$style : none;
+$color-heading: white;
+$color-button :linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+$size-header: 33px;
+$size-subheading: 18px;
+$size-description :14px;

@@ -1,4 +1,38 @@
-header {
-  background-image: url("../img/angelina-andreas-jungleruins.svg"); }
+@font-face {
+  font-family: "Open Sans";
+  font-style: "normal";
+  font-weight: 700;
+  src: local("Open Sans"), url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: "normal";
+  font-weight: 400;
+  src: local(), url("../fonts/OpenSans.woff2") format("woff2"), url("../fonts/OpenSans.woff") format("woff"); }
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: "normal";
+  font-weight: 700;
+  src: local("Bebas Neue"), url("../fonts/BebasNeue-Regular.woff2") format("woff2"), url("../fonts/BebasNeue-Regular.woff") format("woff"); }
+
+body {
+  font-family: "Open Sans"; }
+
+li {
+  list-style: none; }
+
+body {
+  background-image: url("../img/angelina-andreas-jungleruins.svg");
+  background-repeat: no-repeat; }
+
+.header-logo {
+  background-image: url("../img/logo.svg");
+  background-repeat: no-repeat; }
+
+nav {
+  background-image: url("../img/menu-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px top 0; }
 
 /* this is the main of the html*/

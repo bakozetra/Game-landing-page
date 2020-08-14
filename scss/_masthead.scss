@@ -1,4 +1,29 @@
 @import "variables";
-header {
-    background-image: image('angelina-andreas-jungleruins.svg');
-  }
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        repeat: $repeat;
+    }
+}
+body {
+    @include background('../img/angelina-andreas-jungleruins.svg');
+}
+.header-logo{
+    @include background('../img/logo.svg');
+}
+
+@mixin background2($img,$positions: right 10px top 0,$repeats: no-repeat) {
+    background: {
+        image: url($img);
+        repeat: $repeats;
+        position: $positions;
+    }
+}
+nav {
+    @include background2('../img/menu-icon.svg')
+}
+
+    
+
+
+
