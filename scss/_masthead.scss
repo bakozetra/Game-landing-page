@@ -1,16 +1,28 @@
 @import "variables";
+
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        repeat: $repeat;
+        size : cover;
+        position: center;
+
+    }
+}
+.main-header {
+    @include background('../img/header-image.png');
+}
+
 @mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
     background: {
         image: url($imgpath);
         repeat: $repeat;
     }
 }
-body {
-    @include background('../img/angelina-andreas-jungleruins.svg');
-}
 .header-logo{
     @include background('../img/logo.svg');
 }
+
 
 @mixin background2($img,$positions: right 10px top 0,$repeats: no-repeat) {
     background: {
@@ -22,8 +34,22 @@ body {
 nav {
     @include background2('../img/menu-icon.svg')
 }
-
-    
-
-
-
+.header-navigation > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.steam-button {
+    background-color:  #FFB548;
+   
+}
+.more-information {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.more-information > a {
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+}
+   

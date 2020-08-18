@@ -1,1 +1,24 @@
 @import "variables";
+.steam-button {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+
+}
+.article_survive-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color : $color-heading;
+    text-align: center;
+    min-height: 80vh;
+    align-items: center;
+    text-transform: uppercase;
+}
+.header_heading + p {
+    letter-spacing: 2px;
+}
+
+
+

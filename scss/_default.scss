@@ -1,5 +1,11 @@
 @import "variables";
-
+body {
+    margin: 0;
+    color: white;
+}
 li {
     list-style: $style;
+}
+ul {
+    margin: 0;
 }
