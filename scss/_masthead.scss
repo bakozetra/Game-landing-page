@@ -49,54 +49,17 @@ nav {
         @include background2('../img/menu-icon.svg');
         
     }
-    .icon > a {
-        visibility: hidden;
-    }
-    .more-information {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 4rem;
-    }
+    
 }
  @media (min-width : 380px) {
-     .header_heading {
-        font-family: Bebas Neue;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 80px;
-        line-height: 80px;
-        letter-spacing: 3px;
-        margin: 0;
-     }
-     .header_heading + p {
-        font-family: Bebas Neue;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 24px;
-        letter-spacing: 2px;
-        margin: 0;
-        padding-bottom: 28px;
-     }
+    
   .icon {
       padding-right: 120px;;
      display: flex;
      justify-content: space-between;
      width:70px; 
   }
-  .more-information {
-    text-align: center;
-  }
-  .more-information > p  {
-      display: flex;
-      flex: auto;
-  }
- .more-information  {
-    flex: none;
- }
- .more-information > p + a {
-     visibility: hidden;
- }
+  
 }
      
  

@@ -3,22 +3,48 @@
     display: inline-block;
     width: 260px;
     height: 60px;
-    border-radius:10px;
-
+    border-radius: 10px;
 }
 .article_survive-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color : $color-heading;
+    color: $color-heading;
     text-align: center;
     min-height: 80vh;
     align-items: center;
     text-transform: uppercase;
 }
-.header_heading + p {
-    letter-spacing: 2px;
+.header_heading + h3 {
+   
 }
 
+@media (max-width: 380px) {
+    .icon > a {
+        visibility: hidden;
+    }
+    .more-information {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+    }
+}
 
-
+@media (min-width: 380px) {
+    .header_heading + h3 {
+        padding-bottom: 28px;
+    }
+    .more-information {
+        text-align: center;
+    }
+    .more-information > p {
+        display: flex;
+        flex: auto;
+    }
+    .more-information {
+        flex: none;
+    }
+    .more-information > p + a {
+        visibility: hidden;
+    }
+}

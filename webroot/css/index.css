@@ -29,6 +29,15 @@ li {
 ul {
   margin: 0; }
 
+h1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0; }
+
+h3 {
+  margin: 0; }
+
 nav {
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -60,50 +69,37 @@ nav {
   nav {
     background-image: url("../img/menu-icon.svg");
     background-repeat: no-repeat;
-    background-position: right 10px top 10px; }
-  .icon > a {
-    visibility: hidden; }
-  .more-information {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 4rem; } }
+    background-position: right 10px top 10px; } }
 
 @media (min-width: 380px) {
-  .header_heading {
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 80px;
-    letter-spacing: 3px;
-    margin: 0; }
-  .header_heading + p {
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin: 0;
-    padding-bottom: 28px; }
   .icon {
     padding-right: 120px;
     display: flex;
     justify-content: space-between;
-    width: 70px; }
-  .more-information {
-    text-align: center; }
-  .more-information > p {
-    display: flex;
-    flex: auto; }
-  .more-information {
-    flex: none; }
-  .more-information > p + a {
-    visibility: hidden; } }
+    width: 70px; } }
 
 /* this is the main of the html*/
 .article_social {
   background-color: black; }
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 33px;
+    letter-spacing: 2px; }
+  h3 {
+    font-size: 18px; } }
+
+@media (min-width: 380px) {
+  h1 {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    margin: 0; }
+  h3 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin: 0; } }
 
 .steam-button {
   display: inline-block;
@@ -121,5 +117,23 @@ nav {
   align-items: center;
   text-transform: uppercase; }
 
-.header_heading + p {
-  letter-spacing: 2px; }
+@media (max-width: 380px) {
+  .icon > a {
+    visibility: hidden; }
+  .more-information {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem; } }
+
+@media (min-width: 380px) {
+  .header_heading + h3 {
+    padding-bottom: 28px; }
+  .more-information {
+    text-align: center; }
+  .more-information > p {
+    display: flex;
+    flex: auto; }
+  .more-information {
+    flex: none; }
+  .more-information > p + a {
+    visibility: hidden; } }
