@@ -1,0 +1,35 @@
+@import "variables";
+.feature-article {
+  background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 1.5) 50%, rgba(0,0,0,0.9) 100%), url(../img/manimage.png);
+  background-repeat: no-repeat;
+  background-size: cover , auto 100% ;
+  background-position: 0, 0, 50% , 50%;
+  
+}
+.feature-container {
+    padding-inline-start: 116px;
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+    text-align: center;
+}
+.feature-summary {
+  color : #FFB548;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-family: Bebas Neue;
+  font-size: 21px;
+  padding-bottom: 2rem;
+}
+.feature_header {
+  
+
+}
+@media (min-width:380px){
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    align-items: center;
+}
+}
