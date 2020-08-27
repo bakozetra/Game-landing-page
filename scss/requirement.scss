@@ -1,14 +1,33 @@
-.requirement_container {
+ @import  'variables';
+.requirement_article {
+    background-image: url(../img/oldhouse.png);
+    background-repeat: no-repeat;
+    background-position: 0 380px;
+    padding-bottom: 400px;
+
+}
+.requierement_article-header {
+    text-align: center;
+}
+ .requirement_container {
     display: grid;
     grid-template-areas: " os processor "
                          " memory storage"
                          " graphic  graphic";
     grid-template-columns: repeat(2,1fr);
+    padding-left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .requirement_container li {
     border: 1px white solid;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
-
+.requirement_container li b {
+    color:$color;
+    text-transform:$text-transform;
+}
 .list_item_requirement {
     grid-area: os;
 }
@@ -25,3 +44,6 @@
     grid-area: graphic;
 }
 
+@media (min-width : 380px) {
+    
+}
