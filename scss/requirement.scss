@@ -1,0 +1,27 @@
+.requirement_container {
+    display: grid;
+    grid-template-areas: " os processor "
+                         " memory storage"
+                         " graphic  graphic";
+    grid-template-columns: repeat(2,1fr);
+}
+.requirement_container li {
+    border: 1px white solid;
+}
+
+.list_item_requirement {
+    grid-area: os;
+}
+.list_item_memory {
+    grid-area: memory;
+}
+.list_item_processor {
+    grid-area:processor;
+}
+.list_item_sstorage {
+    grid-area: storage;
+}
+.list_item_graphic {
+    grid-area: graphic;
+}
+
