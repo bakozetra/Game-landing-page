@@ -45,5 +45,19 @@
 }
 
 @media (min-width : 380px) {
-    
+    .requirement_article {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-position: right;
+        padding-bottom: 0;
+    }
+    .requierement_article-header {
+        grid-column: 1/3;
+        padding-bottom: 133px;
+        padding-top: 100px;
+    }
+    .requirement_container {
+        margin-left: 122px;
+        
+    }
 }
