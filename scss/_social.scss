@@ -1,2 +1,65 @@
 @import "variables";
-fjkj
+.article_social-header + p {
+    font-family: "Open Sans";
+    font-style: "normal";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.article_social-header {
+    border-bottom: 0.2rem white solid;
+    margin-left: 1rem;
+   
+}
+.article_social-header + p {
+    margin-left: auto;
+    padding-left: 37px;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.article_social-images {
+	padding: 2rem 38px;
+	
+}
+
+// .article_social-images > ul{
+// 	list-style: none;
+// 	margin: 0;
+// 	padding: 0;
+// 	background-color: rgba(255,0,0,.25);
+// 	position: relative;
+// 	padding-bottom: calc(100% * 273 / 249);
+// }
+
+// .article_social-images > ul li{
+// 	position: absolute;
+// }
+
+// li:nth-of-type(1) {
+// 	z-index: 3;
+// 	top:0;
+// 	left: 0;
+// 	right: calc(100% * 24 / 249);
+// 	opacity: 0.5;
+// }
+
+// li:nth-of-type(2) {
+// 	z-index: 2;
+// 	top: 50%;
+// 	right: calc(100% * 12 / 249);
+// 	left: calc(100% * 12 / 249);
+// 	transform: scale(calc(249 / 273)) translateY(-50%);
+// 	transform-origin: 100% 0%;
+// }
+
+// li:nth-of-type(3) {
+// 	z-index: 1;
+// 	display: none;
+// }
+
+// img {
+// 	max-width: 100%;
+// 	display: block;
+// }

@@ -1,0 +1,7 @@
+.quotes_article_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.quotes_article_header button {
+  margin-left: 50px; }

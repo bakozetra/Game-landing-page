@@ -2,6 +2,12 @@
 body {
     margin: 0;
     color: white;
+    background-color: black;
+}
+article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
 }
 li {
     list-style: $style;
@@ -17,4 +23,10 @@ h1 {
 }
 h3 {
     margin: 0;
+}
+button {
+    background-color:#FFB548;
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
 }

@@ -21,8 +21,6 @@
 }
 .requirement_container li {
     border: 1px white solid;
-    padding-left: 1rem;
-    padding-top: 1rem;
 }
 .requirement_container li b {
     color:$color;
@@ -58,6 +56,6 @@
     }
     .requirement_container {
         margin-left: 122px;
-        
+        padding-bottom: 133px;  
     }
 }

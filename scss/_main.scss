@@ -2,16 +2,15 @@
 .article_social {
     background-color: black;
 }
-@media(max-width: 380px) {
-    h1 {
-        font-size: 33px;
-        letter-spacing: 2px;
-    }
-    h3 {
-        font-size: 18px;
-      
-    }
+
+h1 {
+    font-size: 33px;
+    letter-spacing: 2px;
 }
+h3 {
+    font-size: 18px;  
+}
+
 @media(min-width : 380px) {
  h1 {
     font-size: 80px;

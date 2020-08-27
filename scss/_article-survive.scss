@@ -1,9 +1,6 @@
 @import "variables";
 .steam-button {
     display: inline-block;
-    width: 260px;
-    height: 60px;
-    border-radius: 10px;
 }
 .article_survive-container {
     display: flex;
@@ -19,16 +16,16 @@
    
 }
 
-@media (max-width: 380px) {
-    .icon > a {
-        visibility: hidden;
-    }
-    .more-information {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 4rem;
-    }
+
+.icon > a {
+    visibility: hidden;
 }
+.more-information {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    }
+
 
 @media (min-width: 380px) {
     .header_heading + h3 {

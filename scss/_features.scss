@@ -8,9 +8,9 @@
 }
 .feature-container {
     padding-inline-start: 116px;
-    padding-block-start: 100px;
-    padding-block-end: 100px;
-    text-align: center;
+    padding-block-start: 82px;
+    padding-block-end: 82px;
+   
 }
 .feature-summary {
   color : #FFB548;
@@ -18,18 +18,25 @@
   line-height: 21px;
   font-family: Bebas Neue;
   font-size: 21px;
-  padding-bottom: 2rem;
-}
-.feature_header {
-  
+  padding-bottom: 2.5rem;
 
+}
+.feature_header  + ul {
+  padding-left: 0;
+  padding-top: 2rem;
+}
+
+.feature-container {
+  padding-left: 50%;
 }
 @media (min-width:380px){
   .feature-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 80vh;
-    align-items: center;
+   padding-left: 30%;
+}
+.feature-summary {
+  font-size: 36px;
+}
+.feature-article {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, black 37%,black 70%, rgba(0, 0, 0, 0.9) 100%), url(../img/manimage.png);
 }
 }
