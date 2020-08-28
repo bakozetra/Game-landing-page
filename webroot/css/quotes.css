@@ -5,3 +5,42 @@
 
 .quotes_article_header button {
   margin-left: 50px; }
+
+.quotes_article_header + ul li {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 1rem; }
+
+.quotes-container {
+  padding-left: 0; }
+
+.firstPesone {
+  background-image: url(../img/evanlahti.png); }
+
+.firstPesone + li {
+  background-image: url(../img/jada.jpg); }
+
+.firstPesone + li + li {
+  background-image: url(../img/williams.jpg); }
+
+@media (min-width: 380px) {
+  .quotes_article {
+    display: flex; }
+  .quotes_article_header {
+    padding-inline-start: 119px;
+    width: 390px;
+    padding-right: 40px; }
+  .quotes_article_header button {
+    margin-left: 0; }
+  .quotes_article_header + ul li {
+    padding-inline-start: 1rem;
+    background-repeat: no-repeat;
+    background-position: left 1px; }
+  .quotes_article_header + ul {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem; }
+  .firstPesone {
+    transform: translateX(50px); }
+  .firstPesone + li + li {
+    transform: translateX(40px); } }
