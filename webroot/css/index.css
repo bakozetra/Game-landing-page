@@ -313,16 +313,114 @@ h3 {
   background-repeat: no-repeat;
   background-size: 230px 358px;
   background-position: -100px 0px;
-  margin: 0 auto;
-  width: 80%;
-  padding-left: 0; }
+  margin: 0; }
 
-.subscribe_article div {
-  width: 60%;
-  padding-left: 50%; }
+.subscribe_container {
+  width: 80%;
+  padding-left: 38%; }
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse; }
+
+.label-input > input {
+  border-radius: 10px;
+  width: 300px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.08); }
+
+.label-input button {
+  width: 308px;
+  padding-left: 1rem; }
 
 @media (min-width: 380px) {
   .subscribe_article {
+    margin: 0; }
+  .subscribe_article {
     background-size: 40%;
     background-position: 0px;
-    background-color: black; } }
+    background-color: black; }
+  .subscribe_container {
+    padding-left: 50%; }
+  .subscribe_article > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    padding-left: 20%; }
+  .label-input {
+    display: flex;
+    flex-direction: row;
+    transform: translate(480px, 10px); }
+  .label-input > input {
+    margin: 0;
+    margin-right: 1.5rem; } }
+
+.footer_list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 2rem; }
+
+.footer_list li {
+  padding-bottom: 2rem; }
+
+.footer_list + ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 2rem;
+  padding-bottom: 2rem; }
+
+.footer_list + ul li {
+  padding-left: 0; }
+
+.logo_list {
+  padding-bottom: 2rem;
+  padding-left: 30%; }
+
+ul p {
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.5; }
+
+.footer_list li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase; }
+
+.footer_link {
+  border-bottom: 1px white solid;
+  padding-bottom: 0;
+  margin: auto; }
+
+.outpost_game {
+  padding-left: 0;
+  text-align: center; }
+
+.outpost_game > li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+@media (min-width: 380px) {
+  .footer_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6rem; }
+  .footer_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer_list > li {
+    padding-right: 2rem; }
+  .footer_list + ul {
+    display: inline; }
+  .footer_list + ul li {
+    display: inline;
+    padding-inline-start: 2rem; } }
