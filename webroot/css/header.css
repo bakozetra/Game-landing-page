@@ -1,0 +1,121 @@
+div > header > .incon-menu {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  list-style: none;
+  text-decoration: none;
+  background-image: url(../img/menu-icon.png);
+  background-repeat: no-repeat;
+  transform: translate(315px, 0px); }
+
+.list_item_menu > a {
+  list-style: none;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-inline-start: 20px;
+  padding-inline-start: 25px;
+  color: white; }
+
+.list_item_menu {
+  background-repeat: no-repeat;
+  background-position: 10px 15px;
+  transform: translate(29px, 80px); }
+
+div > [type="checkbox"] {
+  display: none; }
+
+div > .menu {
+  transform: translateX(-180px);
+  position: absolute; }
+
+form {
+  padding-right: 6rem; }
+
+.menu > ul {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0; }
+
+.checkbox_input[type=checkbox]:checked ~ header label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  background-color: transparent;
+  background: none;
+  width: 100%;
+  height: 100%; }
+
+.checkbox_input:checked ~ nav {
+  transform: translateX(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 250px;
+  background-color: #646060;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25); }
+
+span {
+  display: none; }
+
+div > .menu-header {
+  justify-content: space-between;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  transform: translate(0px, 12px); }
+
+.checkbox_input + header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.img_decsription {
+  display: none; }
+
+@media (min-width: 768px) {
+  div > .menu {
+    padding: 0;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: none;
+    transform: none;
+    transition: none; }
+  div > .menu > ul {
+    flex-direction: row;
+    display: flex;
+    transform: translate(150px, 0px); }
+  div > .menu > ul > .list_item_menu > a {
+    font-size: 12px; }
+  div > header > .incon-menu {
+    background-image: none; }
+  .header_logo {
+    text-align: none;
+    text-transform: none;
+    font-size: none;
+    position: absolute;
+    right: 4rem; }
+  .list_item_menu {
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    transform: none; }
+  .img_decsription {
+    display: inline;
+    margin: 0;
+    padding-right: 2rem; }
+  .header_container {
+    padding-bottom: 4rem; } }

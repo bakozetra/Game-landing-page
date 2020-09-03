@@ -7,34 +7,43 @@
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        <main>
             <div class="main-header">
-                <header class="header-logo">
-                    <nav class="header-navigation">
-                        <ul>
-                            <li class="">
-                                <a href="./">
-                                    <img src="../webroot/img/logo.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="list-language">
-                                <form action="." method="GET">
-                                    <label for="lang_dropdown"></label>
-                                      <select name="lang" id="lang_dropdown">
-                                        <option lang="en" value="en" label="ENG">
-                                        <option lang="ru" value="ru" label="русский">
-                                        <option lang="fr" value="fr" label="Français">
-                                        <option lang="de" value="de" label="Deutsch">
-                                      </select>
-                                </form>
-                            </li>
-                            <li class="icon">
-                              <a href=""><img src="../webroot/img/steam-icon.png" alt="  "></a>
-                              <a href=""><img src="../webroot/img/vector.png" alt=""></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
+              <div class="header_container">
+                <input type="checkbox" id="menu-checkbox" class="checkbox_input">
+                <header class="menu-header">
+                    <label for="menu-checkbox" class="incon-menu">
+                        <span>menu</span>
+                    </label>
+                    <form action="." method="GET"  class="header_logo">
+                        <label for="lang_dropdown"></label>
+                        <select name="lang" id="lang_dropdown">
+                            <option lang="en" value="en" label="ENG">
+                            <option lang="ru" value="ru" label="русский">
+                            <option lang="fr" value="fr" label="Français">
+                            <option lang="de" value="de" label="Deutsch">
+                        </select>
+                        |
+                    </form>
+                    <p class="img_decsription">
+                      <a href="/" class="">
+                        <img src="../webroot/img/header-img.png" alt="">
+                      </a>
+                      <a href="">
+                        <img src="../webroot/img/Union.png" alt="">
+                      </a>
+                    </p>
+                  </header>
+                  <nav class="menu">
+                    <ul class="unorder_menu">
+                        <li class="list_item_menu main"><a href="/">Main</a></li>
+                        <li class="list_item_menu about"><a href="/">About</a></li>
+                        <li class="list_item_menu game-feature"><a href="/">Game feature</a></li>
+                        <li class="list_item_menu system-require"><a href="/">System requirement</a></li>
+                        <li class="list_item_menu quote"><a href="/">Quotes</a></li>
+                    </ul>
+                 </nav>
+              </div>
+              <main>
                 <article class="article_survive">
                   <div class="article_survive-container">
                     <h1 class="header_heading"> Survive at all costs</h1>
