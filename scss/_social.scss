@@ -69,5 +69,22 @@
     .article_social {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+		}
+		.social_container {
+			padding-bottom: 4rem;
+			padding-top: 4rem;
+		}
+		.article_social-header + p  {
+			padding-top:4rem;
+		}
+		.social_information {
+			width: 100%;
+			padding-left: 50%;
+			padding-top: 15%;
+		}
+		.social_information > p {
+			width: 50%;
+
+		}
+    
 }
